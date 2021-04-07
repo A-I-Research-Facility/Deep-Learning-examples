@@ -4,11 +4,11 @@ General take on deep learning using python language with Tensorflow, and Keras.
 
 ***
 Requirements : 
-  1)Python3, 
-  2)numpy, 
-  3)Tensorflow, 
-  4)Keras, 
-  5)matplotlib
+  1)Python3,.. 
+  2)numpy,.. 
+  3)Tensorflow,.. 
+  4)Keras,.. 
+  5)matplotlib..
 ***
 
 **prog1.py**
