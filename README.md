@@ -8,7 +8,7 @@ The prog1.py file guides on how to make a deep learning model using Tensorflow, 
 
 The number_reader.model is generated when the python code is run. So, in order to use this program, after cloning the repo, delete the model directory. 
 
-
+-------------
 The guide is super easy to follow, but if you have any questions, please email them to cserveairf@gmail.com or create pull requests regarding your questions.
 
 Enjoy!!!
