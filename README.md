@@ -9,7 +9,7 @@ Enjoy!!!
 
 
 Related :  
-   ![42_tensorflow ab38f27e2d](https://user-images.githubusercontent.com/30381993/113905404-bd5f0b80-97f0-11eb-8fd7-6d929a177db0.png) ![icon](https://user-images.githubusercontent.com/30381993/113905465-ce0f8180-97f0-11eb-89f6-fa11234f9c35.jpeg) ![OpenCV_Logo_with_text_svg_version svg](https://user-images.githubusercontent.com/30381993/113905510-d9fb4380-97f0-11eb-8fa4-9f2add9487c9.png)
+   ![42_tensorflow ab38f27e2d](https://user-images.githubusercontent.com/30381993/113905404-bd5f0b80-97f0-11eb-8fd7-6d929a177db0.png)
 
 ***
 Requirements :  
