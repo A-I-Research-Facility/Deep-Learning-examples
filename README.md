@@ -22,3 +22,7 @@ The number_reader.model is generated when the python code is run. So, in order t
 The guide is super easy to follow, but if you have any questions, please email them to cserveairf@gmail.com or create pull requests regarding your questions.
 
 Enjoy!!!
+
+
+Related :  
+   
