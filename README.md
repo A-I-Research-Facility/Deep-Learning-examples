@@ -2,6 +2,4 @@
 
 General take on deep learning using python language with Tensorflow, and Keras.
 
-Tensorflow version => 
-
-Python version =>
+This program has been created with the help of tutorials of 3Blue1Brown.
