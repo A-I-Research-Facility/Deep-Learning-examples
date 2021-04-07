@@ -21,7 +21,7 @@ Requirements :
    6) opencv-python
 ***
 
-**prog1.py**
+## prog1.py
 ***
 The prog1.py file guides on how to make a deep learning model using Tensorflow, and Keras. The dataset used is a collection of images of handwritten digits 0-9, of the same dimension 28 x 28.
 
