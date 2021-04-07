@@ -102,15 +102,15 @@ X = np.array(X).reshape(-1, IMG_SIZE, IMG_SIZE, 1)  # the first argument of resh
 # in order to avoid building it again and again from scratch. The following commands can be used 
 # to save dataset
 
-# import pickle
+import pickle
 
-# pickle_out = open("X.pickle", "wb")
-# pickle.dump(X, pickle_out)
-# pickle_out.close()
+pickle_out = open("X.pickle", "wb")
+pickle.dump(X, pickle_out)
+pickle_out.close()
 
-# pickle_out = open("y.pickle", "wb")
-# pickle.dump(y, pickle_out)
-# pickle_out.close()
+pickle_out = open("y.pickle", "wb")
+pickle.dump(y, pickle_out)
+pickle_out.close()
 
 
 # In order to read the datasets in future
