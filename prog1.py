@@ -14,7 +14,7 @@ x_test = tf.keras.utils.normalize(x_test, axis=1)
 model = tf.keras.models.Sequential()
 # Flattening the data (we currently have a multi dimensional array and we dont want that)
 # We can use numpy's reshape function to flatten too, but here we do it directly
-model.add(tf.keras.layers.Flatten()) # we need to have this in layer type so that if we have a convulusional neural network,
+model.add(tf.keras.layers.Flatten()) # we need to have this in layer type so that if we have a convolusional neural network,
                                      # at the end of the network there will be a densely connected layer, so we need to flatten
                                      # it before that layer
 model.add(tf.keras.layers.Dense(128, activation=tf.nn.relu))        # hidden layer 1, 128 => neurons, rectilinear activation function
