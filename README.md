@@ -9,6 +9,7 @@ Requirements :
    3) Tensorflow  
    4) Keras  
    5) matplotlib
+   6) opencv-python
 ***
 
 **prog1.py**
