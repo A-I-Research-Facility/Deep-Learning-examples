@@ -16,6 +16,7 @@ Requirements :
 <img align="left" alt="keras" width="40px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Keras_logo.svg/512px-Keras_logo.svg.png">
 <img align="left" alt="openCV" width="40px" src="https://pics.freeicons.io/uploads/icons/png/2084117441551941714-512.png">
 <img align="left" alt="matplotlib" width="120px" src="https://matplotlib.org/3.1.1/_static/logo2_compressed.svg"><br>
+<br>
 ***
 ## prog1
 The prog1.py file guides on how to make a deep learning model using Tensorflow, and Keras. The dataset used is a collection of images of handwritten digits 0-9, of the same dimension 28 x 28.
