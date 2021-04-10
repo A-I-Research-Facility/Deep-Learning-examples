@@ -11,12 +11,12 @@ Related :
    ![42_tensorflow ab38f27e2d](https://user-images.githubusercontent.com/30381993/113905404-bd5f0b80-97f0-11eb-8fd7-6d929a177db0.png)
 ***
 Requirements :  
-   1) Python3  
-   2) numpy  
-   3) Tensorflow  
-   4) Keras  
-   5) matplotlib
-   6) opencv-python
+<img align="left" alt="TensorFlow" width="40px" src="https://img.icons8.com/color/2x/tensorflow.png">
+<img align="left" alt="Python" width="40px" src="https://img.icons8.com/color/72/python.png">
+<img align="left" alt="numpy" width="90px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/640px-NumPy_logo_2020.svg.png">
+<img align="left" alt="keras" width="40px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Keras_logo.svg/512px-Keras_logo.svg.png">
+<img align="left" alt="openCV" width="40px" src="https://pics.freeicons.io/uploads/icons/png/2084117441551941714-512.png">
+<img align="left" alt="matplotlib" width="120px" src="https://matplotlib.org/3.1.1/_static/logo2_compressed.svg">
 ***
 ## prog1
 The prog1.py file guides on how to make a deep learning model using Tensorflow, and Keras. The dataset used is a collection of images of handwritten digits 0-9, of the same dimension 28 x 28.
