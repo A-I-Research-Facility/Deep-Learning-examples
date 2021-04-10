@@ -25,6 +25,9 @@ The prog1.py file guides on how to make a deep learning model using Tensorflow, 
 The number_reader.model is generated when the python code is run. So, in order to use this program, after cloning the repo, delete the model directory. 
 ***
 ## prog2
+      ⚠️ The datasets used in this program are more than 100MB in size, hence they are not uploaded in the directory. Please download the dataset from the given link and mention its correct path in the program to use it.
+<br>
+<br>
 This program demonstrates how we can create and load our own data. It covers taking a dataset, in this case it is a collection of images of cats and dogs  
    available here => https://www.microsoft.com/en-us/download/confirmation.aspx?id=54765  
 
