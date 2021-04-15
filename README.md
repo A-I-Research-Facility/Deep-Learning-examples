@@ -34,5 +34,4 @@ This program demonstrates how we can create and load our own data. It covers tak
 In this program we learn to classify the data, reshape necessary objects, extract the required features, and create the raw training dataset.  
    After that we shuffle the data, and finally save it with its features and labels separated for future use.
 ***
-<br>
-<br>
+
