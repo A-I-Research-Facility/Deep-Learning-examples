@@ -1,6 +1,6 @@
 # DeepLearning
 
-General take on deep learning using python language with Tensorflow, and Keras.
+General take on deep learning using python language with Tensorflow, and Keras. Both given programs have their READMEs included which explain each line of code. Please go through the README to understand the code.
 
 ***
 The guide is super easy to follow, but if you have any questions, please email them to cserveairf@gmail.com or create pull requests regarding your questions.
