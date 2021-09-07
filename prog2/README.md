@@ -20,15 +20,15 @@
     CATEGORIES = ["Dog", "Cat"]
 
     for category in CATEGORIES:
-        path = os.path.join(DATADIR, category)      # provide the complete path to cats or dogs dir
+    
+   Provide the complete path to cats or dogs dir :-
+    
+        path = os.path.join(DATADIR, category)
         for img in os.listdir(path):
-            img_array = cv2.imread(os.path.join(path, img), cv2.IMREAD_GRAYSCALE)       # read the images and convert to grayscale 
-                                                                                    # converting to grayscale reduces the datasize 
-                                                                                    # to almost 1/3 of original. 
-        #     plt.imshow(img_array, cmap="gray")
-        #     plt.show()
-        #     break
-        # break
+        
+   Read the images and convert to grayscale. Converting to grayscale reduces the datasize to almost 1/3 of original :-
+        
+            img_array = cv2.imread(os.path.join(path, img), cv2.IMREAD_GRAYSCALE)
 
 ***
 💢 We can check the shape of image array.
@@ -42,10 +42,10 @@ carefully decide a size.
 
 
     IMG_SIZE = 80
-    # new_array = cv2.resize(img_array, (IMG_SIZE, IMG_SIZE))     # this changes size to IMG_SIZE x IMG_SIZE
-    #                                                             # so we get a square shape image always
-    # plt.imshow(new_array, cmap='gray')
-    # plt.show()
+    
+   To change size to IMG_SIZE x IMG_SIZE :-
+    
+    # new_array = cv2.resize(img_array, (IMG_SIZE, IMG_SIZE))
 
 ***
 💢 After trying different sizes, 80 x 80 seems to be the best fit to recognize the image.
@@ -61,7 +61,10 @@ Now we are ready to create training data.
             # We have to map things to a numerical value. So we decide that 0 is dog, and 1 is cat. 
             class_num = CATEGORIES.index(category)
             for img in os.listdir(path):
-                try:                            # we are using try and except because some of the images are broken in this dataset 
+            
+   We are using try and except because some of the images are broken in this dataset.
+            
+                try:
                     img_array = cv2.imread(os.path.join(path, img), cv2.IMREAD_GRAYSCALE)
                     new_array = cv2.resize(img_array, (IMG_SIZE, IMG_SIZE))
                     training_data.append([new_array, class_num])
@@ -108,13 +111,10 @@ that we will use just before feeding them into the neural network.
         y.append(label)
 
 ***
-💢 We can't pass a list to neural network so we need to convert X to a numpy array.
+💢 We can't pass a list to neural network so we need to convert X to a numpy array. <br>
+In the below command, the first argument of reshape defines how many features we have -1 represents "any number", thus there can be any number of features and we are not concerned about it. The last argument defines the number of colours, so, '1' stands for grayscale. If it were rgb, we would have written '3'.
 
-    X = np.array(X).reshape(-1, IMG_SIZE, IMG_SIZE, 1)  # the first argument of reshape defines how many features we have 
-                                                        # -1 represents "any number", thus there can be any number of features 
-                                                        # and we are not concerned about it. The last argument defines the number 
-                                                        # of colours, so, '1' stands for grayscale. If it were rgb, we would have 
-                                                        # written '3'
+    X = np.array(X).reshape(-1, IMG_SIZE, IMG_SIZE, 1)
 
 ***
 💢 We don't wan't to rebuild the dataset multiple times. In this program we are working with a 
