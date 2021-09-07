@@ -97,40 +97,42 @@ useless. Thus we have to shuffle the data.
 ***
 💢 Since the data is now shuffled, we need to packet it into the variables 
 that we will use just before feeding them into the neural network.
-'''
-X = []      # feature set
-y = []      # labels
 
-for features, label in training_data:
-    X.append(features)
-    y.append(label)
+    X = []      # feature set
+    y = []      # labels
 
-# We can't pass a list to neural network so we need to convert X to a numpy array
-X = np.array(X).reshape(-1, IMG_SIZE, IMG_SIZE, 1)  # the first argument of reshape defines how many features we have 
-                                                    # -1 represents "any number", thus there can be any number of features 
-                                                    # and we are not concerned about it. The last argument defines the number 
-                                                    # of colours, so, '1' stands for grayscale. If it were rgb, we would have 
-                                                    # written '3'
-'''
-We don't wan't to rebuild the dataset multiple times. In this program we are working with a 
+    for features, label in training_data:
+        X.append(features)
+        y.append(label)
+
+***
+💢 We can't pass a list to neural network so we need to convert X to a numpy array.
+
+    X = np.array(X).reshape(-1, IMG_SIZE, IMG_SIZE, 1)  # the first argument of reshape defines how many features we have 
+                                                        # -1 represents "any number", thus there can be any number of features 
+                                                        # and we are not concerned about it. The last argument defines the number 
+                                                        # of colours, so, '1' stands for grayscale. If it were rgb, we would have 
+                                                        # written '3'
+
+***
+💢 We don't wan't to rebuild the dataset multiple times. In this program we are working with a 
 very simple and straightforward dataset, whose features and nodes are all simple. In general, 
 when we work with datasets, we have to tweak it. Thus we need to save our dataset after tweaking 
 in order to avoid building it again and again from scratch. The following commands can be used 
-to save dataset
-'''
+to save dataset.
 
-import pickle
+    import pickle
 
-pickle_out = open("X.pickle", "wb")
-pickle.dump(X, pickle_out)
-pickle_out.close()
+    pickle_out = open("X.pickle", "wb")
+    pickle.dump(X, pickle_out)
+    pickle_out.close()
 
-pickle_out = open("y.pickle", "wb")
-pickle.dump(y, pickle_out)
-pickle_out.close()
+    pickle_out = open("y.pickle", "wb")
+    pickle.dump(y, pickle_out)
+    pickle_out.close()
 
+***
+💢 In order to read the datasets in future :-
 
-'In order to read the datasets in future'
-
-# pickle_in = open("X.pickle", "rb")
-# X = pickle.load(pickle_in)
+    # pickle_in = open("X.pickle", "rb")
+    # X = pickle.load(pickle_in)
