@@ -1,3 +1,7 @@
+## Image classification program
+
+We create a deep learning model to classify images as dogs or cats.
+
 💢 Start
 
     import numpy as np
