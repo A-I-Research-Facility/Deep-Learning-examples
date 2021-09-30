@@ -1,6 +1,6 @@
 # Deep learning based programs
 
-General take on deep learning coding using python language with Tensorflow, and Keras. 
+General take on image recognition deep learning coding using python language with the help of Tensorflow, and Keras. 
 
 Both given programs have their READMEs included which explain each line of code. Please go through the README to understand the code.
 
