@@ -1,5 +1,7 @@
 ## Image Recognition program
 
+We create a deep learning model to recognize digits 0 to 9.
+
 💢 Start
 
     import tensorflow as tf
