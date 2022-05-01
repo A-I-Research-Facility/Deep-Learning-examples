@@ -17,7 +17,7 @@ Loading training and testing data :-
 
 ***
 💢 Normalizing training data to get tensor values between 0 and 1.
-We dont have to do this always but it makes it easier for neural net to learn
+We dont have to do this always but it makes it easier for neural net to learn.
 Normalization is a good measure to avoid overflow. Axis refers to 'column' or 'row'.
 
     x_train = tf.keras.utils.normalize(x_train, axis=1)
