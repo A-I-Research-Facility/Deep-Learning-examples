@@ -26,7 +26,7 @@ Requirements :
 <br>
 
 ### 🉑 Program - 2
-* **Classification problem**
+* **CLASSIFICATION problem**
 * The datasets used in this program are more than 100MB in size, hence they are not uploaded in the directory.<br>Please download the dataset from the given link and mention its correct path in the program to use it.
 * This program demonstrates how we can create and load our own data.<br>It covers taking a dataset, in this case it is a collection of images of cats and dogs available [here](https://www.microsoft.com/en-us/download/confirmation.aspx?id=54765).
 * In this program we learn to classify the data, reshape necessary objects, extract the required features, and create the raw training dataset. After that we shuffle the data, and finally save it with its features and labels separated for future use.
