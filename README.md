@@ -20,13 +20,13 @@ Requirements :
 
 ***
 ### 🉑 Program - 1
-* Recognition problem
+* *Recognition problem*
 * The prog1.py file guides on how to make a deep learning model using Tensorflow, and Keras.<br>The dataset used is a collection of images of handwritten digits 0-9, of the same dimension 28 x 28.
 * The number_reader.model is generated when the python code is run. So, in order to use this program, after cloning the repo, delete the model directory. 
 <br>
 
 ### 🉑 Program - 2
-* Classification problem
+* *Classification problem*
 * The datasets used in this program are more than 100MB in size, hence they are not uploaded in the directory.<br>Please download the dataset from the given link and mention its correct path in the program to use it.
 * This program demonstrates how we can create and load our own data.<br>It covers taking a dataset, in this case it is a collection of images of cats and dogs available [here](https://www.microsoft.com/en-us/download/confirmation.aspx?id=54765).
 * In this program we learn to classify the data, reshape necessary objects, extract the required features, and create the raw training dataset. After that we shuffle the data, and finally save it with its features and labels separated for future use.
