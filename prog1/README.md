@@ -35,9 +35,7 @@ We can use numpy's reshape function to flatten too, but here we do it directly.
     model.add(tf.keras.layers.Flatten()) 
 
 ***
-💢 We need to have this in layer type so that if we have a convolusional neural network,
-at the end of the network there will be a densely connected layer, so we need to flatten 
-it before that layer.
+💢 We need to have flattened data in layer-type, so that if we use a convolusional neural network, we have flattened data before the densely connected last layer.
 
 Hidden layer 1, 128 => neurons, rectilinear activation function
 
