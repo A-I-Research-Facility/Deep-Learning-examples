@@ -29,7 +29,7 @@ Normalization is a good measure to avoid overflow. Axis refers to 'column' or 'r
     model = tf.keras.models.Sequential()
 
 ***
-💢 Flattening the data (we currently have a multi dimensional array and we dont want that)
+💢 Flattening the data (we currently have a multi dimensional array and we dont want that).
 We can use numpy's reshape function to flatten too, but here we do it directly.
 
     model.add(tf.keras.layers.Flatten()) 
